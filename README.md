@@ -8,7 +8,7 @@
    
   2. It would be best to run you Windows batch files in a program such as free Mobaxterm program.  It will give you a wider terminal window.   https://mobaxterm.mobatek.net/
   
-  3. You will use the PLINK.EXE in the Putty folder to execute commands. Double click on the batch file to execute it. Your batch file will look something like this:
+  3. You will use the PLINK.EXE in the Putty folder to execute commands. Double click on the batch file to execute it. Ther are two examples below, the first you use if your server has an SSH key and the second for severs that have just password entry. Your batch file will look something like this:
   
 Example 1:  
 Batch file name: Display_mailq.bat
