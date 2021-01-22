@@ -44,10 +44,11 @@ echo.
 REM nnn.nnn.nnn.nnn = your server IP
 REM -i = your server SSH key if it has one
 REM -p = your connection port number
-REM mailq = display mailq
+REM mailq = display mailq  
+REM param1 param2 = any needed input parameters may follow
 
-"C:\Putty\PLINK.EXE" root@nnn.nnn.nnn.nnn -i "C:\Putty\ED25519key.ppk" -P 22 /etc/some_bash_script.sh any_needed_param1 param2
-"C:\Putty\PLINK.EXE" root@nnn.nnn.nnn.nnn -P 22 /etc/some_bash_script.sh any_needed_param1 param2
+"C:\Putty\PLINK.EXE" root@nnn.nnn.nnn.nnn -i "C:\Putty\ED25519key.ppk" -P 22 /etc/some_bash_script.sh param1 param2
+"C:\Putty\PLINK.EXE" root@nnn.nnn.nnn.nnn -P 22 /etc/some_bash_script.sh param1 param2
 
 Pause
 ```
