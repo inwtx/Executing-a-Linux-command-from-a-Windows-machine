@@ -2,11 +2,16 @@
   
   It is possible to execute Linux commands and a bash scripts from a Windows machine using a batch file with Putty.  
   
-  1. Download Putty if you don't aready have it.
+  1. Download Putty if you don't aready have it.  
      Putty: https://www.chiark.greenend.org.uk/~sgtatham/putty/  
    
-  2. You will use the PLINK.EXE in he Putty folder to execute commands. Your batch file will look something like this:
+  2. It would be best to run you Windows batch files in a program such as free Mobaxterm program.  It will give you a wider terminal window.  
+     https://mobaxterm.mobatek.net/
   
+  3. You will use the PLINK.EXE in he Putty folder to execute commands. Your batch file will look something like this:
+  
+Example 1:  
+Batch file name: Display_mailq.bat
 ```
 echo OFF
 echo.
@@ -26,6 +31,8 @@ REM mailq = display mailq
 Pause
 ```
   
+Example 2:  
+Batch file name: Run Some_bash_script.bat
 ```
 echo OFF
 echo.
