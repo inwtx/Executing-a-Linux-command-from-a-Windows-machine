@@ -1,7 +1,7 @@
 # Executing-a-Linux-command-from-a-Windows-machine  
   
   It is possible to execute Linux commands and bash scripts from a Windows machine using a batch file with Putty.  
-  The output will be listed in the terminal window.  
+  The output will be listed in the Window's terminal window.  
   
   1. Download Putty if you do not aready have it.  
      Putty: https://www.chiark.greenend.org.uk/~sgtatham/putty/  
