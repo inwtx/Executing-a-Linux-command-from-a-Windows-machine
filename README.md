@@ -54,3 +54,5 @@ Pause
 ```
   
   
+Note: If the -no-antispoof parameter causes an error, then take it out. It works in the latest PLINK.EXE.
+  
