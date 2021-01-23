@@ -25,8 +25,8 @@ REM -i = your server SSH key if it has one
 REM -p = your connection port number
 REM mailq = display mailq
 
-"C:\Putty\PLINK.EXE" root@nnn.nnn.nnn.nnn -i "C:\Putty\ED25519key.ppk" -P 22 mailq
-"C:\Putty\PLINK.EXE" root@nnn.nnn.nnn.nnn -P 22 mailq
+"C:\Putty\PLINK.EXE" -no-antispoof root@nnn.nnn.nnn.nnn -i "C:\Putty\ED25519key.ppk" -P 22 mailq
+"C:\Putty\PLINK.EXE" -no-antispoof root@nnn.nnn.nnn.nnn -P 22 mailq
 
 Pause
 ```
@@ -47,8 +47,8 @@ REM -p = your connection port number
 REM mailq = display mailq  
 REM param1 param2 = any needed input parameters may follow
 
-"C:\Putty\PLINK.EXE" root@nnn.nnn.nnn.nnn -i "C:\Putty\ED25519key.ppk" -P 22 /etc/some_bash_script.sh param1 param2
-"C:\Putty\PLINK.EXE" root@nnn.nnn.nnn.nnn -P 22 /etc/some_bash_script.sh param1 param2
+"C:\Putty\PLINK.EXE" -no-antispoof root@nnn.nnn.nnn.nnn -i "C:\Putty\ED25519key.ppk" -P 22 /etc/some_bash_script.sh param1 param2
+"C:\Putty\PLINK.EXE" -no-antispoof root@nnn.nnn.nnn.nnn -P 22 /etc/some_bash_script.sh param1 param2
 
 Pause
 ```
