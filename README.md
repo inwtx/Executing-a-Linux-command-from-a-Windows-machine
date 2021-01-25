@@ -54,5 +54,8 @@ Pause
 ```
   
   
-Note: If the -no-antispoof parameter causes an error, then take it out. It works in the latest PLINK.EXE.
-  
+Note: If the -no-antispoof parameter causes an error, then take it out. It works in the latest PLINK.EXE.  
+Note: There seems to be a bug in the PLINK.EXE program.  Be sure the executable is in capitals and keep  
+      a backup of your keys. Executing PLINK.EXE with lower letters has caused the program to auto capitalize  
+      itself and then corrupt the keys.  
+
